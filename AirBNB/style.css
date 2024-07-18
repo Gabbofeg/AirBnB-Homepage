@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo img {
+    width: 100px;
+}
+
+
+.buttonBurgerMenu {
+    background: none;
+    border: none;
+    color: transparent;
+}
+
+
+.burgerMenu {
+    height: 30px;
+    width: 30px;
+    color: black;
+}
+
+
+.rightMenu li a {
+    text-decoration: none;
+    color: white
+}
+
+
+.rightMenu li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.menuOffCanvas li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.menuOffCanvas li a:hover {
+    text-decoration: none;
+    color: rgb(106, 116, 207);
+}
+
+
+.profileLogoOff {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+
+.worldLogo {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.navContainer{
+    background-image: url(../assets/home.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 700px; */
+    background-position: center center;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.discoverPlaces a{
+    text-decoration: none;
+    color: white;
+}
+
+.userManagement{
+    border-radius: 20px;
+}
+
+.fronTextColor h1{
+    color: white;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.fronTextColor button{
+    border-radius: 5px;
+}
